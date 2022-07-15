@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div>
+            <div>
+                <h2>Production per Day</h2>
+                <p id="shadeA"></p>
+                <input type="text" onkeyup="numbersOnly(this)">
+                <p id="shadeB"></p>
+                <input type="text" onkeyup="numbersOnly(this)">
+                <p id="shadeC"></p>
+                <input type="text" onkeyup="numbersOnly(this)">
+                <p id="shadeD"></p>
+                <input type="text" onkeyup="numbersOnly(this)"> <br>
+                <input type="button" id="button1" value="SUBMIT">
+            </div>
+            <div>
+                <h2>Litres Produced per Shade</h2>
+                <p class="output" id="output0"></p>
+                <p class="output" id="output1"></p>
+                <p class="output" id="output2"></p>
+                <p class="output" id="output3"></p>
+            </div>
+        </div>
+        <script>
+          const shades=["shadeA", "shadeB", "shadeC", "shadeD"];
+
+          document.getElementById("shadeA").innerHTML=shades[0];
+          document.getElementById("shadeB").innerHTML=shades[1];
+          document.getElementById("shadeC").innerHTML=shades[2];
+          document.getElementById("shadeD").innerHTML=shades[3];
+
+
+          function numbersOnly(input){
+            var regex = /[^0-9]/gi;
+            input.value=input.value.replace(regex, "");
+
+
+            const inputA = document.getElementById('shadeA');
+            const btn = document.getElementById('button1');
+            const outputA = document.getElementById('output0');
+          }
+        </script>
+    </body>
+</html>
