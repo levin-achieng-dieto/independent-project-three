@@ -16,3 +16,11 @@
     height: 5vh;
     color: black;
 }
+
+.incomePerDay{
+    background-color: red;
+    width: 15vw;
+    height: 7vh;
+    font-size: 2rem;
+    color: white;
+}
