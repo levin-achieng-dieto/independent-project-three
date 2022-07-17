@@ -15,9 +15,13 @@ function numbersOnly(input)
   var inputA = document.getElementById('shadeA');
   var btn = document.getElementById('button1');
   var outputA = document.getElementById('output0');
+  console.log(inputA);
 }
 
+
+
 var inputA = document.getElementById('input0');
+console.log(inputA);
 var outputA = document.getElementById('output0');
 
 var inputB = document.getElementById('input1');
@@ -40,4 +44,19 @@ function fun1 (){
 }
 button1.addEventListener ('click', fun1);
 
+function findSum (){
+  output0.innerHTML = inputA.value;
+  output1.innerHTML = inputB.value;
+  output2.innerHTML = inputC.value;
+  output3.innerHTML = inputD.value;
 
+  reslt1 = parseInt(output0.innerHTML);
+  reslt2 = parseInt(output1.innerHTML);
+  reslt3 = parseInt(output2.innerHTML);
+  reslt4 = parseInt(output3.innerHTML);
+  let total= reslt1 + reslt2 + reslt3 + reslt4
+
+  console.log(total);
+}
+
+button2.addEventListener ('click', findSum);
