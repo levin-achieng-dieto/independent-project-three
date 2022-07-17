@@ -1,11 +1,12 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #B7D0E1;
 }
 
 body{
-    background: #fff;
+    /* background: #fff; */
     color: black;
     /* background: url("../images/Isabelle’s\ Life_\ Gently\ Raising\ Dairy\ Cows.png") center center; */
     
@@ -87,32 +88,63 @@ input{
     background-color: darkgray;
     color: darkgray;
 }
+
+.sums h1{
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.sums h3{
+    text-align: center;
+    padding: 2%;
+}
+
 .incomePerDay{
-    background-color: red;
-    width: 15vw;
+    background-color: #5F84A2;
+    width: 20vw;
     height: 7vh;
     font-size: 2rem;
     color: white;
+    margin-top: 2%;
 }
 
 .incomePerWeek{
-    background-color: red;
-    width: 15vw;
+    background-color: #5F84A2;
+    width: 20vw;
     height: 7vh;
     font-size: 2rem;
     color: white;
+    margin-top: 2%;
 }
 
 
 .incomePerYear{
-    background-color: red;
-    width: 15vw;
+    background-color: #5F84A2;
+    width: 20vw;
     height: 7vh;
     font-size: 2rem;
     color: white;
+    margin-top: 2%;
 }
 .secondDiv{
     display: flex;
     justify-content: space-between;
     margin: 7%;
+}
+
+
+/* #lastDiv {
+    align-items: center;
+    margin-top: 3%;
+} */
+
+.incomeInLeapYear{
+    background-color: #5F84A2;
+    width: 20vw;
+    height: 7vh;
+    font-size: 2rem;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 3%;
 }
