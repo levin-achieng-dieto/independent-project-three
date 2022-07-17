@@ -26,12 +26,13 @@ input{
 #button1{
     margin-top: 20%;
     font-weight: 500;
-    background-color: aqua;
+    background-color: darkgray;
     width: 12vw;
     height: 5vh;
     text-shadow: 1px 1px 1px;
-    border-radius: 10%;
+    border-radius: 15%;
 }
+
 
 .shades{
     display: flex;
@@ -39,12 +40,44 @@ input{
     margin: 10%;
 }
 
-.outputMain{
-    font-size: 2rem;
-    background-color: brown;
+
+.shades21{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20%;
+    font-size: 25px;
+    padding: 5%;
+}
+
+
+#button2{
+    background-color: darkgrey;
+    font-weight: 700;
+    font-size: 25px;
     width: 12vw;
     height: 5vh;
+    align-items: center;
+    border-radius: 10%;
+    margin-bottom: 5%;
+}
+
+.shades2 h2{
+    padding: 3%;
+    margin-bottom: 7%;
+}
+
+
+.outputMain{
+    font-size: 2rem;
+    background-color: darkgray;
+    width: 20vw;
+    height: 5vh;
     color: black;
+    box-shadow: 1px 2px 2px darkgray;
+    border: 2px darkgray;
+    padding: 2%;
+    margin-left: 1%;
+    margin-top: 5%;
 }
 
 .incomePerDay{
