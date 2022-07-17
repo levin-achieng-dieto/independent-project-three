@@ -44,6 +44,8 @@ function fun1 (){
 }
 button1.addEventListener ('click', fun1);
 
+let giveSum = document.querySelector(".outputMain")
+
 function findSum (){
   output0.innerHTML = inputA.value;
   output1.innerHTML = inputB.value;
@@ -56,7 +58,13 @@ function findSum (){
   reslt4 = parseInt(output3.innerHTML);
   let total= reslt1 + reslt2 + reslt3 + reslt4
 
+  var btn = document.getElementById('button2');
+
   console.log(total);
+  giveSum.innerHTML = `${total}`
+
+  let see = giveSum.innerHTML;
+  console.log(see);
 }
 
 button2.addEventListener ('click', findSum);

@@ -8,3 +8,11 @@
     justify-content: space-between;
     margin: 5%;
 }
+
+.outputMain{
+    font-size: 2rem;
+    background-color: brown;
+    width: 12vw;
+    height: 5vh;
+    color: black;
+}
