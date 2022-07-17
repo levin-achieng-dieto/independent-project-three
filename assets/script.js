@@ -45,6 +45,7 @@ button1.addEventListener('click', fun1);
 
 let giveSum = document.querySelector(".outputMain")
 let income = document.querySelector(".incomePerDay")
+let  weeklyEarning = document.querySelector(".incomePerWeek")
 
 function findSum() {
   output0.innerHTML = inputA.value;
@@ -69,6 +70,12 @@ function findSum() {
   let dailyIncome = parseInt(see*litrePrice)
   console.log(dailyIncome);
   income.innerHTML = `${dailyIncome}`;
+
+
+  let daysOfWeek = income.innerHTML;
+  const daysAweek = 7;
+  let weeklyIncome = parseInt(daysOfWeek*daysAweek);
+  weeklyEarning.innerHTML = `${weeklyIncome}`;
   
 }
 

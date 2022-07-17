@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    background-image: ;
+}
+
 .shades{
     display: flex;
     justify-content: space-between;
@@ -23,4 +27,16 @@
     height: 7vh;
     font-size: 2rem;
     color: white;
+}
+
+.incomePerWeek{
+    background-color: red;
+    width: 15vw;
+    height: 7vh;
+    font-size: 2rem;
+    color: white;
+}
+
+.secondDiv{
+    display: flex;
 }
