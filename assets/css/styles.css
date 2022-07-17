@@ -3,7 +3,8 @@
     margin: 0;
 }
 
-/* body{
-    background-image: url("../images/Isabelle’s\ Life_\ Gently\ Raising\ Dairy\ Cows.png");
-    background-color: white;
-} */
+.shades{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}

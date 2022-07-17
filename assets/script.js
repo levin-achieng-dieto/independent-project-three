@@ -18,7 +18,6 @@ function numbersOnly(input)
 }
 
 var inputA = document.getElementById('input0');
-// var bttn = document.getElementById('button1');
 var outputA = document.getElementById('output0');
 
 var inputB = document.getElementById('input1');
@@ -32,9 +31,6 @@ var outputD = document.getElementById('output3')
 
 var bttn = document.getElementById('button1');
 
-// var inputB = dicument.getElementById('input1');
-// var bttn = document.getElementById('button1');
-// var outputB = document.getElementById('output1');
 
 function fun1 (){
   output0.innerHTML = inputA.value;
@@ -45,30 +41,3 @@ function fun1 (){
 button1.addEventListener ('click', fun1);
 
 
-// const inputB = document.getElementById('input1');
-// const bttn = document.getElementById('button1');
-// const outputB = document.getElementById('output1');
-
-// function fun1 (){
-//   output0.innerHTML = inputA.value;
-// }
-// button1.addEventListener ('click', fun1);
-
-// const inputA = document.getElementById('input0');
-// const bttn = document.getElementById('button1');
-// const outputA = document.getElementById('output0');
-
-// function fun1 (){
-//   output0.innerHTML = inputA.value;
-// }
-// button1.addEventListener ('click', fun1);
-
-
-// const inputA = document.getElementById('input0');
-// const bttn = document.getElementById('button1');
-// const outputA = document.getElementById('output0');
-
-// function fun1 (){
-//   output0.innerHTML = inputA.value;
-// }
-// button1.addEventListener ('click', fun1);
