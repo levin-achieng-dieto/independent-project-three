@@ -44,7 +44,7 @@ input{
 .shades21{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     font-size: 25px;
     padding: 5%;
 }
@@ -80,6 +80,13 @@ input{
     margin-top: 5%;
 }
 
+
+.empty{
+    width: 100%;
+    height: 3%;
+    background-color: darkgray;
+    color: darkgray;
+}
 .incomePerDay{
     background-color: red;
     width: 15vw;
@@ -96,6 +103,16 @@ input{
     color: white;
 }
 
+
+.incomePerYear{
+    background-color: red;
+    width: 15vw;
+    height: 7vh;
+    font-size: 2rem;
+    color: white;
+}
 .secondDiv{
     display: flex;
+    justify-content: space-between;
+    margin: 7%;
 }

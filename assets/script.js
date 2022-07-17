@@ -46,6 +46,7 @@ button1.addEventListener('click', fun1);
 let giveSum = document.querySelector(".outputMain")
 let income = document.querySelector(".incomePerDay")
 let  weeklyEarning = document.querySelector(".incomePerWeek")
+let  yearlyEarning = document.querySelector(".incomePerYear")
 
 function findSum() {
   output0.innerHTML = inputA.value;
@@ -77,6 +78,11 @@ function findSum() {
   const daysAweek = 7;
   let weeklyIncome = parseInt(daysOfWeek*daysAweek);
   weeklyEarning.innerHTML = `${weeklyIncome}`;
+
+  let daysInYear = weeklyEarning.innerHTML;
+  const weeksInYear = 52;
+  let yearlyIncome = parseInt(weeksInYear*daysInYear);
+  yearlyEarning.innerHTML = `${yearlyIncome}`;
   
 }
 
