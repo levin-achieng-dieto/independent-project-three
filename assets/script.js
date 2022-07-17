@@ -61,12 +61,13 @@ function findSum() {
 
   var btn = document.getElementById('button2');
 
-  // console.log(total);
+
   giveSum.innerHTML = `${total}`
 
   let see = giveSum.innerHTML;
+
+
   const litrePrice = 45;
-  // console.log(see);
   let dailyIncome = parseInt(see*litrePrice)
   console.log(dailyIncome);
   income.innerHTML = `${dailyIncome}`;
@@ -82,76 +83,3 @@ function findSum() {
 button2.addEventListener('click', findSum);
 
 
-
-
-// function getShadePrice(){
-//   output0.innerHTML = inputA.value;
-//   output1.innerHTML = inputB.value;
-//   output2.innerHTML = inputC.value;
-//   output3.innerHTML = inputD.value;
-
-//   reslt1 = parseInt(output0.innerHTML);
-//   reslt2 = parseInt(output1.innerHTML);
-//   reslt3 = parseInt(output2.innerHTML);
-//   reslt4 = parseInt(output3.innerHTML);
-//   let total = reslt1 + reslt2 + reslt3 + reslt4
-
-//   var btn = document.getElementById('button3');
-
-//   // console.log(total);
-//   income.innerHTML = `${total}`;
-
-//   let numberOfShades = income.innerHTML;
-//   const litrePrice = 45;
-
-//   let dailyIncome = parseInt(numberOfShades*litrePrice)
-//   console.log(dailyIncome);
-
-
-// }
-
-// button3.addEventListener('click', getShadePrice);
-
-
-
-
-
-
-
-
-
-
-
-
-// var dIncome = function (price) {
-//   output0.innerHTML = inputA.value;
-//   output1.innerHTML = inputB.value;
-//   output2.innerHTML = inputC.value;
-//   output3.innerHTML = inputD.value;
-
-//   reslt1 = parseInt(output0.innerHTML);
-//   reslt2 = parseInt(output1.innerHTML);
-//   reslt3 = parseInt(output2.innerHTML);
-//   reslt4 = parseInt(output3.innerHTML);
-//   let total = reslt1 + reslt2 + reslt3 + reslt4
-
-//   giveSum.innerHTML = `${total}`
-
-//   let pay = giveSum.innerHTML;
-
-//   income.innerHTML = pay.innerHTML * (price);
-//   var btnn = document.getElementById('button3');
-// }
-
-// dIncome("45");
-
-// button3.addEventListener('click', dIncome);
-
-
-
-//   var  = (outPutMain.innerHTML) * pricePerLitre;
-
-//   console.log(pricePerLitre);
-// }
-
-// pricePerLitre(45);
