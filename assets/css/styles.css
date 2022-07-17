@@ -17,6 +17,22 @@ margin: 5%;
 font-weight: 700;
 }
 
+
+input{
+    padding: 15px;
+    box-shadow: 1px 2px 2px white;
+    border-radius: 3%;
+}
+#button1{
+    margin-top: 20%;
+    font-weight: 500;
+    background-color: aqua;
+    width: 12vw;
+    height: 5vh;
+    text-shadow: 1px 1px 1px;
+    border-radius: 10%;
+}
+
 .shades{
     display: flex;
     justify-content: space-between;
