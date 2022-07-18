@@ -47,6 +47,7 @@ let giveSum = document.querySelector(".outputMain")
 let income = document.querySelector(".incomePerDay")
 let  weeklyEarning = document.querySelector(".incomePerWeek")
 let  yearlyEarning = document.querySelector(".incomePerYear")
+let  earningInLeapYear = document.querySelector(".incomeInLeapYear")
 
 function findSum() {
   output0.innerHTML = inputA.value;
@@ -83,9 +84,37 @@ function findSum() {
   const weeksInYear = 52;
   let yearlyIncome = parseInt(weeksInYear*daysInYear);
   yearlyEarning.innerHTML = `${yearlyIncome}`;
-  
-}
 
+
+
+  // let daysInLeapYear = yearlyEarning.innerHTML;
+  // function
+  
+  let myDaysIncome = income.innerHTML;
+
+
+  function isLeapYear(year){
+    if (year % 4 === 0){
+      januaryEarning = parseInt (myDayIncome)*31;
+      februaryEarning = parseInt (myDayIncome)*29;
+      marchEarning = parseInt (myDayIncome)*31;
+      aprilEarning = parseInt (myDayIncome)*30;
+      mayEarning = parseInt (myDayIncome)*31;
+      juneEarning = parseInt (myDayIncome)*30;
+      julyEarning = parseInt (myDayIncome)*31;
+      augustEarning = parseInt (myDayIncome)*31;
+      septemberEarning = parseInt (myDayIncome)*30;
+      octoberEarning = parseInt (myDayIncome)*31;
+      novemberEarning = parseInt (myDayIncome)*30;
+      decemberEarning = parseInt (myDayIncome)*31;
+    }
+    else {
+      itsNotYeapYear
+    }
+    isLeapYear(2000);
+    earningInLeapYear = '${isLeapYear}';
+  }
+}
 button2.addEventListener('click', findSum);
 
 
