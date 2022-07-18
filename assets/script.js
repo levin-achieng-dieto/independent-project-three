@@ -47,7 +47,7 @@ let giveSum = document.querySelector(".outputMain")
 let income = document.querySelector(".incomePerDay")
 let  weeklyEarning = document.querySelector(".incomePerWeek")
 let  yearlyEarning = document.querySelector(".incomePerYear")
-let  sales = document.querySelector(".incomeInLeapYear")
+let  earnings = document.querySelector(".incomeInLeapYear")
 
 function findSum() {
   output0.innerHTML = inputA.value;
@@ -85,9 +85,6 @@ function findSum() {
   yearlyEarning.innerHTML = `${yearlyIncome}`;
 
 
-
-//   // let daysInLeapYear = yearlyEarning.innerHTML;
-//   // function
   
   let myDaysIncome = income.innerHTML;
   console.log(myDaysIncome);
@@ -126,9 +123,11 @@ function findSum() {
 
 
       return sales;
+      let earnings = sales;
     }
   }
-  console.log(isLeapYear(2000));
+  let earnings = sales;
+  
 }
 
 button2.addEventListener('click', findSum);
