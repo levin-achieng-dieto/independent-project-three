@@ -148,7 +148,13 @@ input{
 }
 
 
+#lastDiv{
+    float: right;
+    margin-top: 4%;
+    margin-right: 20%;
+}
+
+
 #lastDiv h2{
-    text-align: center;
-    margin-top: 3%;
+    margin-bottom: 7%;
 }
