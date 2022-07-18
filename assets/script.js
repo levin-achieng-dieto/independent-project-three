@@ -47,7 +47,7 @@ let giveSum = document.querySelector(".outputMain")
 let income = document.querySelector(".incomePerDay")
 let  weeklyEarning = document.querySelector(".incomePerWeek")
 let  yearlyEarning = document.querySelector(".incomePerYear")
-let  earningInLeapYear = document.querySelector(".incomeInLeapYear")
+let  sales = document.querySelector(".incomeInLeapYear")
 
 function findSum() {
   output0.innerHTML = inputA.value;
@@ -65,7 +65,6 @@ function findSum() {
 
 
   giveSum.innerHTML = `${total}`
-
   let see = giveSum.innerHTML;
 
 
@@ -87,34 +86,51 @@ function findSum() {
 
 
 
-  // let daysInLeapYear = yearlyEarning.innerHTML;
-  // function
+//   // let daysInLeapYear = yearlyEarning.innerHTML;
+//   // function
   
   let myDaysIncome = income.innerHTML;
+  console.log(myDaysIncome);
+
+  var sales = {};
 
 
   function isLeapYear(year){
-    if (year % 4 === 0){
-      januaryEarning = parseInt (myDayIncome)*31;
-      februaryEarning = parseInt (myDayIncome)*29;
-      marchEarning = parseInt (myDayIncome)*31;
-      aprilEarning = parseInt (myDayIncome)*30;
-      mayEarning = parseInt (myDayIncome)*31;
-      juneEarning = parseInt (myDayIncome)*30;
-      julyEarning = parseInt (myDayIncome)*31;
-      augustEarning = parseInt (myDayIncome)*31;
-      septemberEarning = parseInt (myDayIncome)*30;
-      octoberEarning = parseInt (myDayIncome)*31;
-      novemberEarning = parseInt (myDayIncome)*30;
-      decemberEarning = parseInt (myDayIncome)*31;
+    if (parseInt(year) % 4 === 0){
+      januaryEarning = parseInt (myDaysIncome)*31;
+      februaryEarning = parseInt (myDaysIncome)*29;
+      marchEarning = parseInt (myDaysIncome)*31;
+      aprilEarning = parseInt (myDaysIncome)*30;
+      mayEarning = parseInt (myDaysIncome)*31;
+      juneEarning = parseInt (myDaysIncome)*30;
+      julyEarning = parseInt (myDaysIncome)*31;
+      augustEarning = parseInt (myDaysIncome)*31;
+      septemberEarning = parseInt (myDaysIncome)*30;
+      octoberEarning = parseInt (myDaysIncome)*31;
+      novemberEarning = parseInt (myDaysIncome)*30;
+      decemberEarning = parseInt (myDaysIncome)*31;
+
+
+      sales['januaryEarning'] = januaryEarning;
+      sales['februaryEarning'] = februaryEarning;
+      sales['marchEarning'] = marchEarning;
+      sales['aprilEarning'] = aprilEarning;
+      sales['mayEarning'] = mayEarning;
+      sales['juneEarning'] = juneEarning;
+      sales['julyEarning'] = julyEarning;
+      sales['augustEarning'] = augustEarning;
+      sales['septemberEarning'] = septemberEarning;
+      sales['octoberEarning'] = octoberEarning;
+      sales['novemberEarning'] = novemberEarning;
+      sales['decemberEarning'] = decemberEarning;
+
+
+      return sales;
     }
-    else {
-      itsNotYeapYear
-    }
-    isLeapYear(2000);
-    earningInLeapYear = '${isLeapYear}';
   }
+  console.log(isLeapYear(2000));
 }
+
 button2.addEventListener('click', findSum);
 
 
